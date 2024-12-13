@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { useFirebase } from "../../context/firebase";
-import Loader from "../../components/common/loader";
+import { useFirebase } from "../context/firebase";
+import Loader from "../components/loader";
 
 function LoginPage() {
   const [email, setEmail] = useState("");

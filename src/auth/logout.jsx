@@ -1,4 +1,4 @@
-import { useFirebase } from "../../context/firebase";
+import { useFirebase } from "../context/firebase";
 
 function Logout() {
   const { Logout } = useFirebase(null);

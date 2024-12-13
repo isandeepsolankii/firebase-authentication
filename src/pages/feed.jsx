@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useFirebase } from "../context/firebase";
-import Loader from "../components/common/loader";
+import Loader from "../components/loader";
 
 function Feed() {
   const [dropdownOpen, setDropdownOpen] = useState(false);

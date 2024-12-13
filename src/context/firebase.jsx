@@ -11,15 +11,7 @@ import {
 } from "firebase/auth";
 import { createContext, useContext, useEffect, useState } from "react";
 
-const firebaseConfig = {
-  apiKey: "AIzaSyARlpRjbC03aVrMpu_Zma_8YRbYosjATlc",
-  authDomain: "social-media-e39c8.firebaseapp.com",
-  databaseURL: "https://social-media-e39c8-default-rtdb.firebaseio.com",
-  projectId: "social-media-e39c8",
-  storageBucket: "social-media-e39c8.firebasestorage.app",
-  messagingSenderId: "189613670996",
-  appId: "1:189613670996:web:f5f5b0b35e8c1ce8f163c1",
-};
+const firebaseConfig = {}; // Add Your Config File Here
 
 const firebaseApp = initializeApp(firebaseConfig);
 const firebaseAuth = getAuth(firebaseApp);
